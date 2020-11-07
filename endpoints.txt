@@ -1,0 +1,14 @@
+endpoints:
+  POST - https://4749g3o662.execute-api.ap-south-1.amazonaws.com/prod/notes
+  GET - https://4749g3o662.execute-api.ap-south-1.amazonaws.com/prod/notes/{id}
+  GET - https://4749g3o662.execute-api.ap-south-1.amazonaws.com/prod/notes
+  PUT - https://4749g3o662.execute-api.ap-south-1.amazonaws.com/prod/notes/{id}
+  DELETE - https://4749g3o662.execute-api.ap-south-1.amazonaws.com/prod/notes/{id}
+  POST - https://4749g3o662.execute-api.ap-south-1.amazonaws.com/prod/billing
+functions:
+  create: notes-api-prod-create
+  get: notes-api-prod-get
+  list: notes-api-prod-list
+  update: notes-api-prod-update
+  delete: notes-api-prod-delete
+  billing: notes-api-prod-billing
